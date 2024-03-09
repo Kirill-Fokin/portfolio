@@ -7,133 +7,172 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="body">
-  <header class="header>
-    <img class="header__logo logo" src="./assets/logos/logo 1.svg" alt="logo">
-    <nav class="header__menu menu">
-      <ul class="menu__list">
-        <li class="menu__item">
-          <a class="menu__link" href="#" id="skills">Skilles</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#" id="portfolio">Portfolio</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#" id="video">Video</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#" id="price">Price</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#" id="contacts">Contacts</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#" id="about">Информация</a>
-          <ul class="subitem2">
-            <li>en</li>
-            <li>ru</li>
+  <div class="container">
+    <header class="header">
+      <div class="wrapper header__wrapper">
+        <div class="header__logo">
+          <a class="log" href="#">
+            <img class="logo__image" src="./assets/images/logos/main-logo.png" alt="photo-camera">
+          </a>
+        </div>
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#" id="skills">Skilles</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#" id="portfolio">Portfolio</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#" id="video">Video</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#" id="price">Price</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#" id="contacts">Contacts</a>
+            </li>
+            <li class="menu__item">
+              <ul class="subitem">
+                <li>en</li>
+                <li>ru</li>
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main class="main">
-  <div class="main__content content">
-    <h1 class="title content__title">Alexa Rise</h1>
-     <p class="main__text text">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
-     <button class="main__button button">
-        Hire me
-     </button>
+        </nav>
+        <section class="photographer-name photographer-name__wrapper">
+          <div class="photographer-name__content">
+            <h1 class="title photographer-name__title">Alexa Rise</h>
+            <p class="photographer-name__text text">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
+            <button class="main__button button">
+              <span>Hire me</span> 
+            </button>
+          </div>
+        </section>
+      </div>
+    </header>
+    <main class="main">
+      <section class="skills skills__wrapper">
+        <div class="wrapper skills__wrapper">
+          <h2 class="skills__title title">Skills</h2>
+          <div class="layout-4-columns">
+            <div class="card card__wrapper">
+              <img class="card__image" src="./assets/images/logos/camera 1.png" alt="camera-logo">
+              <h5 class="card__title">Digital photography</h5>
+              <p class="card__text">High-quality photos in the studio and on the nature</p>
+            </div>
+            <div class="card card__wrapper">
+              <img class="card__image" src="./assets/images/logos/cinema.png" alt="shoot-logo">
+              <h5 class="card__title">Video shooting</h5>
+              <p class="card__text">Capture your moments so that they always stay with you</p>
+            </div>
+            <div class="card card__wrapper">
+              <img class="card__image" src="./assets/images/logos/image.png" alt="image-logo">
+              <h5 class="card__title">Retouch</h5>
+              <p class="card__text">I strive to make photography surpass reality</p>
+            </div>
+            <div class="card card__wrapper">
+              <img class="card__image" src="./assets/images/logos/micro.png" alt="microphone-logo">
+              <h5 class="card__title">Audio</h5>
+              <p class="card__text">Professional sounds recording for video, advertising, portfolio</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="wrapper portfolio__wrapper">
+          <h2 class="portfolio__title title">Portfolio</h2>
+          <div class="portfolio__buttons">
+            <button class="portfolio__button button">Winter</button>
+            <button class="portfolio__button button">Spring</button>
+            <button class="portfolio__button button">Summer</button>
+            <button class="portfolio__button button">Autumn</button>
+          </div>
+          <div class="portfolio__layot portfolio-layout">
+            <img src="./assets/images/portfolio-img.jpg" alt="" class="portfolio-layout__image">
+            <img src="./assets/images/portfolio-img2.jpg" alt="" class="portfolio-layout__image">
+            <img src="./assets/images/portfolio-img3.jpg" alt="" class="portfolio-layout__image">
+            <img src="./assets/images/portfolio-img4.jpg" alt="" class="portfolio-layout__image">
+            <img src="./assets/images/portfolio-img5.jpg" alt="" class="portfolio-layout__image">
+            <img src="./assets/images/portfolio-img6.jpg" alt="" class="portfolio-layout__image">
+          </div>
+        </div>
+      </section>
+      <section class="video">
+        <div class="wrapper video__wrapper">
+          <img class="video__image" src="./assets/images/video-player.jpg" alt="video-image">
+        </div>
+      </section>
+    <section class="price">
+      <div class="wrapper price__wrapper">
+        <div class="price-layout price-layout__wrapper">
+          <div class="price-card price-card__wrapper">
+            <h6 class="price-card__title">Standard</h6>
+            <span class="price-card__price">500 $</span>
+            <p class="price-card__text">
+              One location<br/>
+              120 photos in color<br/>
+              12 photos in retouch<br/>
+              Readiness 2-3 weeks<br/>
+              Make up, visage
+            </p>
+            <button class="button price__button"></button>
+          </div>
+          <div class="price-card price-card__wrapper">
+            <h6  class="price-card__title">Premium</h6>
+            <span class="price-card__price">700 $</span>
+            <p class="price-card__text">
+              One location<br/>
+              120 photos in color<br/>
+              12 photos in retouch<br/>
+              Readiness 2-3 weeks<br/>
+              Make up, visage
+            </p>
+            <button class="button price__button"></button>
+          </div>
+          <div class="price-card price-card__wrapper">
+            <h6 class="price-card__title">Gold</h6>
+            <span class="price-card__price">1000 $</span>
+            <p class="price-card__text">
+              One location<br/>
+              120 photos in color<br/>
+              12 photos in retouch<br/>
+              Readiness 2-3 weeks<br/>
+              Make up, visage
+            </p>
+            <button class="button price__button"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-me">
+      <div class="wrapper contact-me__wrapper">
+        <form action="" method="get>
+          <label for="name">E-mail</label>
+          <input type="text" name="name" id="name" required>
+          <label for="email">Phone</label>
+          <input type="email" name="email" id="email" required>
+          <label for="email">Message</label>
+          <input type="email" name="email" id="email" required>
+          <button type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+    </main>
+    <footer class="footer">
+      <div class="wrapper footer__wrapper">
+        <div class="footer__git">
+          © 2022 github
+        </div>
+        g<a href="">Rolling Scopes School</a>
+        <div class="footer__logos logos">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+        </div>
+      </div>
+    </footer>
   </div>
-  <div class="skills">
-    <h2 class="skills__title title">Skills</h2>
-    <div class="skills-icons">
-      <div class="card">
-        <img class="card__image" src="./assets/images/" alt="">
-        <h5 class="card__title"></h5>
-        <p class="card__text"></p>
-      </div>
-      <div class="card">
-        <img class="card__image" src="./assets/images/" alt="">
-        <h5 class="card__title"></h5>
-        <p class="card__text"></p>
-      </div>
-      <div class="card">
-        <img class="card__image" src="./assets/images/" alt="">
-        <h5 class="card__title"></h5>
-        <p class="card__text"></p>
-      </div>
-      <div class="card">
-        <img class="card__image" src="./assets/images/" alt="">
-        <h5 class="card__title"></h5>
-        <p class="card__text"></p>
-      </div>
-    </div>
-  </div>
-  <div class="portfolio">
-    <h2 class="portfolio__title title">Portfolio</h2>
-    <div class="portfolio__buttons">
-      <button class="portfolio__button">Winter</button>
-      <button class="portfolio__button">Spring</button>
-      <button class="portfolio__button">Summer</button>
-      <button class="portfolio__button">Autumn</button>
-    </div>
-    <div class="portfolio__layot portfolio-layout">
-      <img src="" alt="" class="portfolio-layout__image">
-      <img src="" alt="" class="portfolio-layout__image">
-      <img src="" alt="" class="portfolio-layout__image">
-      <img src="" alt="" class="portfolio-layout__image">
-      <img src="" alt="" class="portfolio-layout__image">
-      <img src="" alt="" class="portfolio-layout__image">
-    </div>
-  </div>
-  <div class="video">
-    <img src="" alt="">
-  </div>
-  <div class="price">
-    <div class="pice__layout">
-      <div class="pice__card">
-        <h6></h6>
-        <span></span>
-        <button>
-        </button>
-      </div>
-      <div class="pice__card">
-        <h6></h6>
-        <span></span>
-        <button>
-        </button>
-      </div>
-      <div class="pice__card">
-        <h6></h6>
-        <span></span>
-        <button>
-        </button>
-      </div>
-    </div>
-  <div class="contact-me">
-    <form action="" method="get>
-      <label for="name">E-mail</label>
-      <input type="text" name="name" id="name" required>
-      <label for="email">Phone</label>
-      <input type="email" name="email" id="email" required>
-      <label for="email">Message</label>
-      <input type="email" name="email" id="email" required>
-      <button type="submit">Send message</button>
-  </form>
-  </div>
-  </div>
-  </main>
-  <footer class="footer">
-    <div class="footer__git">
-      © 2022 github
-    </div>
-    <a href="">Rolling Scopes School</a>
-    <div class="footer__logos logos">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-    </div>
-  </footer>
 </body>
 </html>
