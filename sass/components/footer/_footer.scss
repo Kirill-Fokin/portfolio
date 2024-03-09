@@ -1,0 +1,17 @@
+.footer {
+  &__wrapper {
+    @include flex(space-between, normal);
+  }
+
+  &__git {
+    color: white;
+  }
+
+  &__git {
+    color: white;
+  }
+
+  &__logos {
+    @include flex(space-between, normal);
+  }
+}

@@ -1,0 +1,41 @@
+.title {
+  @include font('Merriweather', 6rem, 600);
+  color: white;
+}
+
+.second-title {
+  position: relative;
+  @include font('Merriweather', 4rem, 600);
+  color: $color-primary;
+  text-align: center;
+  width: 20rem;
+
+  &::before {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 2rem;
+    left: -4rem;;
+    content: '';
+    @include width-height(6rem, 0.3rem);
+    background-color: $color-primary;
+    
+  }
+  &::after {
+    position: absolute;
+    top: 2rem;
+    right: -4rem;
+    display: block;
+    content: '';
+    @include width-height(6rem, 0.3rem);
+   background-color: $color-primary;
+  }
+}
+
+.contact-title {
+  position: relative;
+  @include font('Merriweather', 4rem, 600);
+  color: $color-primary;
+  text-align: center;
+  width: 30rem;
+}

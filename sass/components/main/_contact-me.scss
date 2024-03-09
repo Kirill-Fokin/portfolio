@@ -1,0 +1,11 @@
+.contact-me {
+    height: 70rem;
+    background-image: url(/assets/images/contact.jpeg);
+    &__wrapper {
+      @include flex(center, center);
+      flex-direction: column;
+    }
+
+
+}
+

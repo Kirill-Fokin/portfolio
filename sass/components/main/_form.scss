@@ -1,0 +1,30 @@
+.contact-me-form {
+    @include flex (normal, space-between);
+    flex-direction: column;
+
+    .input-box {
+        position: relative;
+        width: 45rem;
+        height: 5rem;
+    }
+    label {
+        position: absolute;
+    }
+
+    &__name {
+       width: 45rem;
+       height: 5rem;
+       background-color: rgba(147, 147, 147, 0.7);
+    }
+    &__phone {
+        width: 45rem;
+        height: 5rem;
+        background-color: rgba(147, 147, 147, 0.7);
+     }
+
+     &__message {
+        width: 45rem;
+        height: 5rem;
+        background-color: rgba(147, 147, 147, 0.7);
+     }
+}

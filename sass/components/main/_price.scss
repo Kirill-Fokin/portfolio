@@ -1,0 +1,10 @@
+.price {
+  &__wrapper {
+    @include flex(center, center);
+  }
+
+  &-layout {
+    @include flex(space-between, normal);
+    column-gap: 4rem;
+  }
+}

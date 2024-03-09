@@ -1,0 +1,31 @@
+.menu {
+    @include flex(space-between, normal);  
+    
+    &__list {
+      @include flex(center, noramal);
+      column-gap: 3rem;
+    }
+
+    &__link {
+      color: white;
+      @include font("Merriweather", 2rem, 600);
+      transition: 1s;
+
+      &:hover {
+        color: $color-primary; 
+      }
+    }
+
+    .subitem {
+      @include flex(space-between, normal);
+      column-gap: 0.2rem;
+      & li {
+        @include font("Inter", 2rem, 600)
+        
+      }
+
+      & li:nth-child(1) {
+        color: $color-primary;
+      } 
+    }
+}

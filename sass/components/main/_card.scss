@@ -1,0 +1,28 @@
+.card {
+  @include flex(center, center);
+  flex-direction: column;
+  align-self: auto;
+  max-width: 32rem;
+  max-height: 24rem;
+  text-align: center;
+  transition: 1s;
+
+  &:hover {
+   border: 1px solid $color-primary;
+   border-radius: 3rem;
+    
+  }
+
+  &__title {
+    @include font('Inter', 2rem, 400,);
+    color: white;
+  }
+
+  &__text {
+    @include font('Inter', 1.8rem, 200,);
+  }
+  
+  &__image {
+    max-width: 6rem;
+  }
+}

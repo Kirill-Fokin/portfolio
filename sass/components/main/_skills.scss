@@ -1,0 +1,13 @@
+.skills {
+    @include flex(center, center);
+    .layout-4-columns {
+      @include flex(space-between, normal);
+      column-gap: 4rem;
+      flex-wrap: wrap
+    }
+
+    &__wrapper {
+        @include flex(center, center);
+        flex-direction: column;
+    }
+}

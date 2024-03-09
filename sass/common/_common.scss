@@ -1,6 +1,19 @@
 // @import '/fonts/inter.woff2';
+html {
+  font-size: 10px;
+}
 
 body {
-  background-color: rgb(175, 171, 171);
+  background-color: rgb(0, 0, 0);
+  @include flex(center, normal);
+}
+
+.wrapper {
+  max-width: 144rem;
+  padding: 0 2rem;
+}
+
+p {
+  color: white;
 }
 

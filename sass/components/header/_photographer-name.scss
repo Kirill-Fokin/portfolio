@@ -1,0 +1,6 @@
+.photographer-name {    
+  &__text {
+    @include font('Inter', 2rem, 400,); 
+    max-width: 47rem;
+  }
+}
