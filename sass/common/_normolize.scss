@@ -8,6 +8,8 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+
+
  * {
   box-sizing: border-box;
   text-decoration: none;
@@ -19,6 +21,11 @@
     -webkit-text-size-adjust: 100%; /* 2 */
   }
   
+
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
   /* Sections
      ========================================================================== */
   

@@ -1,10 +1,13 @@
 .price {
   &__wrapper {
     @include flex(center, center);
-  }
+    flex-direction: column;
+    margin-top: 9rem;
+    row-gap: 4rem;
 
+  }
   &-layout {
     @include flex(space-between, normal);
-    column-gap: 4rem;
+    column-gap: 2.5rem;
   }
 }
