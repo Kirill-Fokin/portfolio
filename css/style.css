@@ -579,7 +579,7 @@ p {
 }
 
 .header {
-  background-image: url(./assets/images/bg.jpg);
+  background-image: url(/portfolio/assets/images/bh.jpeg);
   background-position: center;
   background-size: cover;
   height: 91rem;
