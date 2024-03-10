@@ -1,5 +1,5 @@
 .skills {
-    @include flex(center, center);
+  @include flex(center, center);
     .layout-4-columns {
       flex-wrap: wrap;
       column-gap: 4rem;
@@ -11,17 +11,16 @@
         row-gap: 2rem;
         column-gap: 0rem;
       }
-      
     }
 
-    &__wrapper {
-      margin-top: 4.2rem;
-        @include flex(center, center);
-        flex-direction: column;
-        row-gap: 4.5rem;
-        @include media-tablet  { 
-          margin-top: 3rem;
+  &__wrapper {
+    margin-top: 4.2rem;
+      @include flex(center, center);
+      flex-direction: column;
+      row-gap: 4.5rem;
+      @include media-tablet  { 
+        margin-top: 3rem;
           
-        }
+      }
     }
 }

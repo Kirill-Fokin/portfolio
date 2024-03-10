@@ -1,48 +1,38 @@
 .contact-me-form {
-    @include flex (normal, space-between);
-    flex-direction: column;
+  @include flex (normal, space-between);
+  flex-direction: column;
 
-    .input-box {
-        position: relative;
+  .input-box {
+      position: relative;
+      width: 45rem;
+      height: 5rem;
+      &__mail{
+        color: white;
+        font-size: 4rem;
         width: 45rem;
         height: 5rem;
-
-        &__mail{
-            color: white;
-            font-size: 4rem;
-            width: 45rem;
-            height: 5rem;
-            background-color: rgba(0, 0, 0, 0.26);
-            border: none;
-            border: 2px solid $color-primary;
-            @include font('Inter', 2rem, 400);
-         }
-
-         &__phone {
-            color: white;
-            width: 45rem;
-            height: 5rem;
-            background-color: rgba(0, 0, 0, 0.26);
-            border: none;
-            border: 2px solid $color-primary;
-            @include font('Inter', 2rem, 400);
-         }
-
-         &__message {
-            color: white;
-            width: 45rem;
-            height: 10rem;
-            background-color: rgba(0, 0, 0, 0.26);
-            border: none;
-            border: 2px solid $color-primary;
-            @include font('Inter', 2rem, 400);
-         }
-
-         
-    
+        background-color: rgba(0, 0, 0, 0.26);
+        border: none;
+        border: 2px solid $color-primary;
+        @include font('Inter', 2rem, 400);
     }
-  
-    
-   
-    
+    &__phone {
+      color: white;
+      width: 45rem;
+      height: 5rem;
+      background-color: rgba(0, 0, 0, 0.26);
+      border: none;
+      border: 2px solid $color-primary;
+      @include font('Inter', 2rem, 400);
+    }
+    &__message {
+      color: white;
+      width: 45rem;
+      height: 10rem;
+      background-color: rgba(0, 0, 0, 0.26);
+      border: none;
+      border: 2px solid $color-primary;
+      @include font('Inter', 2rem, 400);
+    }
+  }
 }

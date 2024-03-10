@@ -5,6 +5,8 @@
    @include flex(space-between, center);
    row-gap: 2rem;
    transition: 1s;
+   flex-direction: column;
+   border: 1px solid $color-primary;
    &:hover {
       background-color: $color-primary;
    }
@@ -20,12 +22,6 @@
    &:hover &__text {
       color: black;
    }
-
-
-
-
-   flex-direction: column;
-   border: 1px solid $color-primary;
    &__title {
     color: white;
     @include font("Merriwather", 2.8rem, 600);
@@ -44,5 +40,5 @@
       line-height: 3.5rem;
     @include font("Inter", 1.8rem, 300);
     transition: 1s;  
-   }
+   } 
 }

@@ -6,8 +6,6 @@
   @include media-tablet {
     max-height: 54rem;
     position: relative;
-    // background-position: left 100px;
-    // background-position: 25% 75%;
     background-position: center;
    }
 
@@ -16,8 +14,6 @@
     flex-direction: row;
     justify-content: space-between;
     column-gap: 3rem;
-
-    
   }
   &__logo {
     @include media-tablet {

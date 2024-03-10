@@ -7,18 +7,6 @@ body {
   @include flex(center, normal);
 }
 
-// .container {
-//   max-width: 144rem;
-//   padding: 0 2rem;
-//   overflow: hidden;
-
-
-//   @include media-tablet  {
-//     max-width: 76rem;
-//     padding: 0 6rem;
-//   }
-// }
-
 .wrapper {
   max-width: 144rem;
   padding: 0 2rem;
@@ -33,27 +21,4 @@ body {
 
 p {
   color: white;
-}
-
-// @include tablet{ 
-//   .wrapper {
-//     display: none;
-//     max-width: 76.8rem;
-//     // padding: 0 6rem;
-//   }
-// }
-
-
-// @include tablet{ 
-//   .body {
-//     display: none !important;
-//   }
-// }
-
-
-@media (max-width: 768rem) {
-  // .wrapper {
-  //   max-width: 76.8rem;
-  //   padding: 0 6rem;
-  // }
 }

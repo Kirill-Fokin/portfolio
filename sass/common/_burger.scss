@@ -61,21 +61,7 @@
   }
   
   @include media-tablet{
-  
       .header__burger-btn  {
          display: flex;
       } 
-  
   }
-  
-  
-  //TODO mobile  burger
-
-//   @include media-mobile{
-  
-//     .header__burger-btn  {
-//      top: 3rem;
-//      right: 3.5rem;
-//     } 
-  
-//   }

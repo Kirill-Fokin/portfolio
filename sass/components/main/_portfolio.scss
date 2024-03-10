@@ -10,18 +10,15 @@
     @include flex(center, normal);
     column-gap:0.5rem;
     flex-wrap: wrap;
-
   @include media-tablet  {
     max-width: 60.5rem;
     @include flex(center, center);
    }
   }
-
   &__layot {
    margin-top: 6rem;
   }
-}
-  .portfolio-layout {
+  &-layout {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -30,31 +27,5 @@
     &__image {
         max-width: 45rem;
     }
+  }
 }
-
-
-// @include tablet{ 
-//   .portfolio {
-//     &__wrapper {
-
-//       }
-//     &__buttons {
-//       flex-wrap: wrap;
-//       @include flex(center, normal);
-//     }
-  
-//     &__layot {
-
-//     }
-//   }
-//     .portfolio-layout {
-
-
-
-
-
-//       &__image {
-
-//       }
-//   }
-// }
