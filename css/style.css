@@ -1045,7 +1045,7 @@ p {
       -ms-flex-pack: end;
           justify-content: end;
   padding-top: 4rem;
-  background-image: url(../../../assets/images/contact.jpeg);
+  background-image: url(/assets/images/contact.jpeg);
 }
 @media (max-width: 768px) {
   .contact-me {
