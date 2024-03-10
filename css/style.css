@@ -664,8 +664,8 @@ p {
   font-family: "Inter";
   font-size: 2rem;
   font-weight: 400;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .menu__link:hover {
   color: #bdae82;
@@ -1045,7 +1045,7 @@ p {
       -ms-flex-pack: end;
           justify-content: end;
   padding-top: 4rem;
-  background-image: url(/assets/images/contact.jpeg);
+  background-image: url(../../../assets/images/contact.jpeg);
 }
 @media (max-width: 768px) {
   .contact-me {
