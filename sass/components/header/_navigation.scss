@@ -3,6 +3,9 @@
     &__list {
       @include flex(center, noramal);
       column-gap: 3.1rem;
+      @include media-tablet  {
+        display: none;
+      }
     }
     &__link {
       color: white;

@@ -23,6 +23,8 @@ button {
   @include font('Inter', 2rem, 300);
   transition: 1s;
 
+  
+
   &:hover {
     background-color:$color-primary;
     color: black;

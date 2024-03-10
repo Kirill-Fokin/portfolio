@@ -7,7 +7,8 @@
 
   }
   &-layout {
-    @include flex(space-between, normal);
+    @include flex(center, normal);
+    flex-wrap: wrap;
     column-gap: 2.5rem;
   }
 }

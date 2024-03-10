@@ -1,24 +1,26 @@
+// TODO remove this
 
-@mixin desktop() {
 
-  @media (max-width: $breakpoint_l) {
-    @content;
-  }
+// @mixin desktop() {
 
-}
+//   @media (max-width: $breakpoint_l) {
+//     @content;
+//   }
 
-  @mixin tablet() {
+// }
 
-    @media (max-width: $breakpoint_m) {
-      @content;
-    }
+//   @mixin tablet() {
 
-  }
+//     @media (max-width: $breakpoint_m) {
+//       @content;
+//     }
 
-  @mixin mobile() {
+//   }
 
-    @media (max-width: $breakpoint_s) {
-      @content;
-    }
+//   @mixin mobile() {
+
+//     @media (max-width: $breakpoint_s) {
+//       @content;
+//     }
     
-  }
+//   }

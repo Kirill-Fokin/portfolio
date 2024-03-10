@@ -9,6 +9,12 @@
     margin-top: 4.4rem;
     @include flex(space-between, normal);
     column-gap:0.5rem;
+
+  @include media-tablet  {
+    max-width: 60.5rem;
+    flex-wrap: wrap;
+    @include flex(center, center);
+   }
   }
 
   &__layot {
@@ -16,6 +22,7 @@
   }
 }
   .portfolio-layout {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     column-gap: 2.5rem;
@@ -24,3 +31,30 @@
         max-width: 45rem;
     }
 }
+
+
+// @include tablet{ 
+//   .portfolio {
+//     &__wrapper {
+
+//       }
+//     &__buttons {
+//       flex-wrap: wrap;
+//       @include flex(center, normal);
+//     }
+  
+//     &__layot {
+
+//     }
+//   }
+//     .portfolio-layout {
+
+
+
+
+
+//       &__image {
+
+//       }
+//   }
+// }
