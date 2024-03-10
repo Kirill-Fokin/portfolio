@@ -2,9 +2,12 @@
   &__wrapper {
     @include flex(center, center);
     flex-direction: column;
+    margin-top: 8.2rem;
+
   }
 
   &__image {
     max-width: 144rem;
+    margin-top: 4.5rem;
   }
 }

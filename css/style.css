@@ -705,9 +705,11 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 8.2rem;
 }
 .video__image {
   max-width: 144rem;
+  margin-top: 4.5rem;
 }
 
 .price__wrapper {
