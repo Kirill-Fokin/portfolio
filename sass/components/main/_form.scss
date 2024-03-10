@@ -6,25 +6,39 @@
         position: relative;
         width: 45rem;
         height: 5rem;
-    }
-    label {
-        position: absolute;
-    }
 
-    &__name {
-       width: 45rem;
-       height: 5rem;
-       background-color: rgba(147, 147, 147, 0.7);
-    }
-    &__phone {
-        width: 45rem;
-        height: 5rem;
-        background-color: rgba(147, 147, 147, 0.7);
-     }
+        &__mail{
+            width: 45rem;
+            height: 5rem;
+            background-color: rgba(0, 0, 0, 0.26);
+            border: none;
+            border: 2px solid $color-primary;
+            @include font('Inter', 2rem, 400);
+         }
 
-     &__message {
-        width: 45rem;
-        height: 5rem;
-        background-color: rgba(147, 147, 147, 0.7);
-     }
+         &__phone {
+            width: 45rem;
+            height: 5rem;
+            background-color: rgba(0, 0, 0, 0.26);
+            border: none;
+            border: 2px solid $color-primary;
+            @include font('Inter', 2rem, 400);
+         }
+
+         &__message {
+            width: 45rem;
+            height: 10rem;
+            background-color: rgba(0, 0, 0, 0.26);
+            border: none;
+            border: 2px solid $color-primary;
+            @include font('Inter', 2rem, 400);
+         }
+
+         
+    
+    }
+  
+    
+   
+    
 }

@@ -376,6 +376,15 @@ button {
   font-weight: 400;
 }
 
+.contact-me-button {
+  width: 22rem;
+  height: 5.5rem;
+  margin-top: 6rem;
+  font-family: "Inter";
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 html {
   font-size: 10px;
 }
@@ -821,18 +830,19 @@ p {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+  padding-top: 4rem;
   background-image: url(/assets/images/contact.jpeg);
 }
 .contact-me__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: noramal;
-      -ms-flex-align: noramal;
-          align-items: noramal;
+  -webkit-box-pack: normal;
+      -ms-flex-pack: normal;
+          justify-content: normal;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -859,23 +869,35 @@ p {
   width: 45rem;
   height: 5rem;
 }
-.contact-me-form label {
-  position: absolute;
-}
-.contact-me-form__name {
+.contact-me-form .input-box__mail {
   width: 45rem;
   height: 5rem;
-  background-color: rgba(147, 147, 147, 0.7);
+  background-color: rgba(0, 0, 0, 0.26);
+  border: none;
+  border: 2px solid #bdae82;
+  font-family: "Inter";
+  font-size: 2rem;
+  font-weight: 400;
 }
-.contact-me-form__phone {
+.contact-me-form .input-box__phone {
   width: 45rem;
   height: 5rem;
-  background-color: rgba(147, 147, 147, 0.7);
+  background-color: rgba(0, 0, 0, 0.26);
+  border: none;
+  border: 2px solid #bdae82;
+  font-family: "Inter";
+  font-size: 2rem;
+  font-weight: 400;
 }
-.contact-me-form__message {
+.contact-me-form .input-box__message {
   width: 45rem;
-  height: 5rem;
-  background-color: rgba(147, 147, 147, 0.7);
+  height: 10rem;
+  background-color: rgba(0, 0, 0, 0.26);
+  border: none;
+  border: 2px solid #bdae82;
+  font-family: "Inter";
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .footer__wrapper {

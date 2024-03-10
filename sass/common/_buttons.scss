@@ -34,5 +34,11 @@ button {
   @include font('Inter', 2rem, 400);
 }
 
+.contact-me-button {
+  @include width-height(22rem, 5.5rem); 
+  margin-top: 6rem;
+  @include font('Inter', 2rem, 400);
+}
+
 
 

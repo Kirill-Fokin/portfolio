@@ -3,10 +3,11 @@
     height: 70rem;
     display: flex;
     justify-content: end;
+    padding-top: 4rem;
     
     background-image: url(/assets/images/contact.jpeg);
     &__wrapper {
-      @include flex(center, noramal);
+      @include flex(normal, flex-start);
       flex-direction: column;
     }
 }
