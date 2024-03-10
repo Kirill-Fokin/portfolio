@@ -1,9 +1,9 @@
 .card {
-  @include flex(center, center);
+  @include flex(space-between, center);
   flex-direction: column;
-  align-self: auto;
   max-width: 32rem;
-  max-height: 24rem;
+  padding: 0 2rem;
+  height: 24rem;
   text-align: center;
   transition: 1s;
 
@@ -16,10 +16,14 @@
   &__title {
     @include font('Inter', 2rem, 400,);
     color: white;
+    padding-top: 2.3rem;
+    // margin-top: 1rem;
   }
 
   &__text {
-    @include font('Inter', 1.8rem, 200,);
+    @include font('Inter', 1.8rem, 300,);
+    line-height: 3.5rem;
+    margin-top: -0.3rem;
   }
   
   &__image {

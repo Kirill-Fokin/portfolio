@@ -580,6 +580,7 @@ p {
       flex-wrap: wrap;
 }
 .skills__wrapper {
+  margin-top: 4.2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -593,15 +594,16 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  row-gap: 4.5rem;
 }
 
 .card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -609,11 +611,9 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
   max-width: 32rem;
-  max-height: 24rem;
+  padding: 0 2rem;
+  height: 24rem;
   text-align: center;
   -webkit-transition: 1s;
   transition: 1s;
@@ -627,11 +627,14 @@ p {
   font-size: 2rem;
   font-weight: 400;
   color: white;
+  padding-top: 2.3rem;
 }
 .card__text {
   font-family: "Inter";
   font-size: 1.8rem;
-  font-weight: 200;
+  font-weight: 300;
+  line-height: 3.5rem;
+  margin-top: -0.3rem;
 }
 .card__image {
   max-width: 6rem;
