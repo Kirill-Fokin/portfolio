@@ -344,7 +344,11 @@ button {
   font-weight: 400;
   -webkit-transition: 1s;
   transition: 1s;
-  margin-top: 2.5rem;
+}
+@media (max-width: 768px) {
+  .main-button {
+    margin-top: 5rem;
+  }
 }
 .main-button:hover {
   background-color: rgb(30, 30, 30);
@@ -602,6 +606,11 @@ p {
           flex-direction: column;
   row-gap: 17rem;
 }
+@media (max-width: 768px) {
+  .header__wrapper {
+    row-gap: 8rem;
+  }
+}
 
 .menu {
   display: -webkit-box;
@@ -687,6 +696,11 @@ p {
   line-height: 4rem;
   margin-top: -0.6rem;
 }
+@media (max-width: 768px) {
+  .photographer-name__text {
+    line-height: 2.5rem;
+  }
+}
 .photographer-name__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -698,6 +712,11 @@ p {
       -ms-flex-align: normal;
           align-items: normal;
   margin-left: 6rem;
+}
+@media (max-width: 768px) {
+  .photographer-name__wrapper {
+    margin-left: 0rem;
+  }
 }
 
 .skills {

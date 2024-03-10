@@ -5,11 +5,16 @@
     max-width: 47rem;
     line-height: 4rem;
     margin-top: -0.6rem;
-
+    @include media-tablet {
+      line-height: 2.5rem;
+    }
   }
   
   &__wrapper {
     @include flex(normal, normal);
     margin-left: 6rem;
+    @include media-tablet {
+      margin-left: 0rem;
+    }
   }
 }
