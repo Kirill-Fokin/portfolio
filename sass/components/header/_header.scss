@@ -1,7 +1,30 @@
 .header {
   background-image: url(/assets/images/bg.jpg); 
   background-position: center;
+  background-size: cover;
   height: 91rem;
+  @include media-tablet {
+    max-height: 54rem;
+    position: relative;
+    // background-position: left 100px;
+    // background-position: 25% 75%;
+    background-position: center;
+   }
+
+  &__subwrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 3rem;
+
+    
+  }
+  &__logo {
+    @include media-tablet {
+      margin-left: -0.5rem;
+      margin-top: -0.3rem;
+    }
+  }
   &__wrapper {
     padding-top: 2.4rem;
     display: flex;

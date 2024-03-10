@@ -1,11 +1,14 @@
 .title {
   @include font('Merriweather', 6rem, 600);
   color: white;
+  @include media-tablet {
+    @include font('Merriweather', 3.2rem, 600);
+  }
 }
 
 .second-title {
   position: relative;
-  @include font('Merriweather', 4rem, 600);
+  @include font('Merriweather', 3.2rem, 600);
   color: $color-primary;
   text-align: center;
   width: 20rem;

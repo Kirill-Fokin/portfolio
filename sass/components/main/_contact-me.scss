@@ -4,8 +4,12 @@
     display: flex;
     justify-content: end;
     padding-top: 4rem;
-    
     background-image: url(/assets/images/contact.jpeg);
+    @include media-tablet {
+      justify-content: center;
+      align-items: center;
+    }
+    
     &__wrapper {
       @include flex(normal, flex-start);
       flex-direction: column;

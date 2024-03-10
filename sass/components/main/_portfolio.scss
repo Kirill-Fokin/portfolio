@@ -7,12 +7,12 @@
     }
   &__buttons {
     margin-top: 4.4rem;
-    @include flex(space-between, normal);
+    @include flex(center, normal);
     column-gap:0.5rem;
+    flex-wrap: wrap;
 
   @include media-tablet  {
     max-width: 60.5rem;
-    flex-wrap: wrap;
     @include flex(center, center);
    }
   }

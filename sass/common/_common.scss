@@ -7,14 +7,27 @@ body {
   @include flex(center, normal);
 }
 
+// .container {
+//   max-width: 144rem;
+//   padding: 0 2rem;
+//   overflow: hidden;
+
+
+//   @include media-tablet  {
+//     max-width: 76rem;
+//     padding: 0 6rem;
+//   }
+// }
+
 .wrapper {
   max-width: 144rem;
   padding: 0 2rem;
+  overflow: hidden;
 
 
   @include media-tablet  {
     max-width: 76rem;
-    padding: 0 2rem;
+    padding: 0 6rem;
   }
 }
 
