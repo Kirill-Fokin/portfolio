@@ -18,6 +18,7 @@
     @include font('Inter', 2rem, 400);
   }
 
+  
   &__logos {
     @include flex(space-between, normal);
     column-gap: 3rem;
