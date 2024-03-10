@@ -579,7 +579,7 @@ p {
 }
 
 .header {
-  background-image: url(/assets/images/bg.jpg);
+  background-image: url(../../../assets/images/bg.jpg);
   background-position: center;
   background-size: cover;
   height: 91rem;
@@ -899,7 +899,6 @@ p {
 .portfolio__layot {
   margin-top: 6rem;
 }
-
 .portfolio-layout {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
