@@ -7,6 +7,7 @@ button {
   @include width-height(22rem, 5.5rem);
   @include font('Inter', 2rem, 400);
   transition: 1s;
+  margin-top: 2.5rem;
 
   &:hover {
     background-color: rgb(30, 30, 30);

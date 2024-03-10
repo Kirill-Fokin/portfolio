@@ -1,5 +1,10 @@
 .header {
   background-image: url(/assets/images/bg.jpg); 
-  // background-color: rgb(103, 101, 99);
   height: 91rem;
+  &__wrapper {
+    padding-top: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 17rem;
+  }
 }

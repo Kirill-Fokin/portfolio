@@ -1,30 +1,32 @@
 .menu {
-    @include flex(space-between, normal);  
-    
+    @include flex(space-between, normal);    
     &__list {
       @include flex(center, noramal);
-      column-gap: 3rem;
+      column-gap: 3.1rem;
     }
-
     &__link {
       color: white;
-      @include font("Merriweather", 2rem, 600);
+      @include font("Inter", 2rem, 400);
       transition: 1s;
-
       &:hover {
         color: $color-primary; 
       }
     }
 
     .subitem {
-      @include flex(space-between, normal);
-      column-gap: 0.2rem;
+      padding-left: 0rem;
+      @include flex(normal, normal);
+      column-gap: 1rem;
       & li {
         @include font("Inter", 2rem, 600)
-        
       }
-
       & li:nth-child(1) {
+        color: $color-primary;
+      } 
+      & li:nth-child(2) {
+        color: $color-primary;
+      } 
+      & li:nth-child(3) {
         color: $color-primary;
       } 
     }

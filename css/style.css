@@ -339,6 +339,7 @@ button {
   font-weight: 400;
   -webkit-transition: 1s;
   transition: 1s;
+  margin-top: 2.5rem;
 }
 .main-button:hover {
   background-color: rgb(30, 30, 30);
@@ -452,6 +453,17 @@ p {
   background-image: url(/assets/images/bg.jpg);
   height: 91rem;
 }
+.header__wrapper {
+  padding-top: 2.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 17rem;
+}
 
 .menu {
   display: -webkit-box;
@@ -474,15 +486,15 @@ p {
   -webkit-box-align: noramal;
       -ms-flex-align: noramal;
           align-items: noramal;
-  -webkit-column-gap: 3rem;
-     -moz-column-gap: 3rem;
-          column-gap: 3rem;
+  -webkit-column-gap: 3.1rem;
+     -moz-column-gap: 3.1rem;
+          column-gap: 3.1rem;
 }
 .menu__link {
   color: white;
-  font-family: "Merriweather";
+  font-family: "Inter";
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 400;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -490,18 +502,19 @@ p {
   color: #bdae82;
 }
 .menu .subitem {
+  padding-left: 0rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: normal;
+      -ms-flex-pack: normal;
+          justify-content: normal;
   -webkit-box-align: normal;
       -ms-flex-align: normal;
           align-items: normal;
-  -webkit-column-gap: 0.2rem;
-     -moz-column-gap: 0.2rem;
-          column-gap: 0.2rem;
+  -webkit-column-gap: 1rem;
+     -moz-column-gap: 1rem;
+          column-gap: 1rem;
 }
 .menu .subitem li {
   font-family: "Inter";
@@ -511,12 +524,32 @@ p {
 .menu .subitem li:nth-child(1) {
   color: #bdae82;
 }
+.menu .subitem li:nth-child(2) {
+  color: #bdae82;
+}
+.menu .subitem li:nth-child(3) {
+  color: #bdae82;
+}
 
 .photographer-name__text {
   font-family: "Inter";
   font-size: 2rem;
   font-weight: 400;
   max-width: 47rem;
+  line-height: 4rem;
+  margin-top: -0.6rem;
+}
+.photographer-name__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: normal;
+      -ms-flex-pack: normal;
+          justify-content: normal;
+  -webkit-box-align: normal;
+      -ms-flex-align: normal;
+          align-items: normal;
+  margin-left: 6rem;
 }
 
 .skills {
@@ -729,6 +762,12 @@ p {
 
 .contact-me {
   height: 70rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
   background-image: url(/assets/images/contact.jpeg);
 }
 .contact-me__wrapper {
@@ -738,9 +777,9 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: noramal;
+      -ms-flex-align: noramal;
+          align-items: noramal;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
