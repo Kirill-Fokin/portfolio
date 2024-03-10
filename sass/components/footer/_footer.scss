@@ -1,17 +1,26 @@
 .footer {
   &__wrapper {
-    @include flex(space-between, normal);
+    @include flex(space-between, center);
+    padding: 6rem 2rem;
   }
 
   &__git {
+    word-spacing: 1.5rem;
+    margin-left: 0rem;
     color: white;
+    @include font('Inter', 2rem,400);
   }
 
-  &__git {
+  &__rs {
+    margin-left: 2rem;
+    word-spacing: 0rem;
     color: white;
+    @include font('Inter', 2rem, 400);
   }
 
   &__logos {
     @include flex(space-between, normal);
+    column-gap: 3rem;
+    margin-right: 0rem;
   }
 }
