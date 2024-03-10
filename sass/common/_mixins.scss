@@ -1,0 +1,29 @@
+@mixin width-height ($width , $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin flex ($justify-content, $align-items) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+@mixin font ($font-family, $font-size, $font-weigth) {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weigth;
+}
+
+
+@mixin media-laptop {
+  @media (max-width: $content-width) { @content; }
+}
+
+@mixin media-tablet {
+  @media (max-width: $breakpoint_m) { @content; }
+}
+
+@mixin media-mobilesmall {
+  @media (max-width: $mobile-small-width) { @content; }
+}

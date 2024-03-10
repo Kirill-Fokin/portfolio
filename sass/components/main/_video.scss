@@ -1,0 +1,11 @@
+.video {
+  &__wrapper {
+    @include flex(center, center);
+    flex-direction: column;
+    margin-top: 8.2rem;
+  }
+  &__image {
+    max-width: 100%;
+    margin-top: 4.5rem;
+  }
+}
