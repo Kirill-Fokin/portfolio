@@ -8,14 +8,18 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-
-
  * {
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
  }
+
  
+ :active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */

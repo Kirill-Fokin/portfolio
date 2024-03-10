@@ -7,7 +7,6 @@ button {
   @include width-height(22rem, 5.5rem);
   @include font('Inter', 2rem, 400);
   transition: 1s;
-  // margin-top: 2rem;
   @include media-tablet {
     margin-top: 5rem;
   }
@@ -25,9 +24,6 @@ button {
   color: $color-primary;
   @include font('Inter', 2rem, 300);
   transition: 1s;
-
-  
-
   &:hover {
     background-color:$color-primary;
     color: black;
@@ -37,12 +33,22 @@ button {
 .price-button {
   @include width-height(22rem, 5.5rem); 
   @include font('Inter', 2rem, 400);
+  transition: 1s;
+  &:hover {
+    background-color: rgb(30, 30, 30);
+    color: white;
+  }
 }
 
 .contact-me-button {
   @include width-height(22rem, 5.5rem); 
   margin-top: 6rem;
   @include font('Inter', 2rem, 400);
+  transition: 1s;
+  &:hover {
+    background-color: rgb(30, 30, 30);
+    color: white;
+  }
 }
 
 

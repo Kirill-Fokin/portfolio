@@ -8,6 +8,8 @@
         height: 5rem;
 
         &__mail{
+            color: white;
+            font-size: 4rem;
             width: 45rem;
             height: 5rem;
             background-color: rgba(0, 0, 0, 0.26);
@@ -17,6 +19,7 @@
          }
 
          &__phone {
+            color: white;
             width: 45rem;
             height: 5rem;
             background-color: rgba(0, 0, 0, 0.26);
@@ -26,6 +29,7 @@
          }
 
          &__message {
+            color: white;
             width: 45rem;
             height: 10rem;
             background-color: rgba(0, 0, 0, 0.26);

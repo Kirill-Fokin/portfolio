@@ -12,6 +12,11 @@
   list-style: none;
 }
 
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -378,6 +383,12 @@ button {
   font-family: "Inter";
   font-size: 2rem;
   font-weight: 400;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.price-button:hover {
+  background-color: rgb(30, 30, 30);
+  color: white;
 }
 
 .contact-me-button {
@@ -387,6 +398,12 @@ button {
   font-family: "Inter";
   font-size: 2rem;
   font-weight: 400;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.contact-me-button:hover {
+  background-color: rgb(30, 30, 30);
+  color: white;
 }
 
 html {
@@ -759,6 +776,10 @@ p {
     -webkit-box-align: normal;
         -ms-flex-align: normal;
             align-items: normal;
+    row-gap: 2rem;
+    -webkit-column-gap: 0rem;
+       -moz-column-gap: 0rem;
+            column-gap: 0rem;
   }
 }
 .skills__wrapper {
@@ -777,6 +798,11 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
   row-gap: 4.5rem;
+}
+@media (max-width: 768px) {
+  .skills__wrapper {
+    margin-top: 3rem;
+  }
 }
 
 .card {
@@ -1030,6 +1056,7 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    background-position: center;
   }
 }
 .contact-me__wrapper {
@@ -1069,6 +1096,8 @@ p {
   height: 5rem;
 }
 .contact-me-form .input-box__mail {
+  color: white;
+  font-size: 4rem;
   width: 45rem;
   height: 5rem;
   background-color: rgba(0, 0, 0, 0.26);
@@ -1079,6 +1108,7 @@ p {
   font-weight: 400;
 }
 .contact-me-form .input-box__phone {
+  color: white;
   width: 45rem;
   height: 5rem;
   background-color: rgba(0, 0, 0, 0.26);
@@ -1089,6 +1119,7 @@ p {
   font-weight: 400;
 }
 .contact-me-form .input-box__message {
+  color: white;
   width: 45rem;
   height: 10rem;
   background-color: rgba(0, 0, 0, 0.26);

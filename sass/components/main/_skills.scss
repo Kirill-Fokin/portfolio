@@ -8,6 +8,8 @@
       @include flex(space-between, normal);
       @include media-tablet  {
         @include flex(center, normal);
+        row-gap: 2rem;
+        column-gap: 0rem;
       }
       
     }
@@ -17,6 +19,9 @@
         @include flex(center, center);
         flex-direction: column;
         row-gap: 4.5rem;
-        
+        @include media-tablet  { 
+          margin-top: 3rem;
+          
+        }
     }
 }
