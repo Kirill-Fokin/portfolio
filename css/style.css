@@ -579,7 +579,7 @@ p {
 }
 
 .header {
-  background-image: url(/portfolio/assets/f/bg.jpg);
+  background-image: url(/portfolio/assets/bg/bg.jpg);
   background-position: center;
   background-size: cover;
   height: 91rem;
@@ -1045,7 +1045,7 @@ p {
       -ms-flex-pack: end;
           justify-content: end;
   padding-top: 4rem;
-  background-image: url(/portfolio/assets/images/contact.jpeg);
+  background-image: url(/portfolio/assets/bg/contact.jpeg);
 }
 @media (max-width: 768px) {
   .contact-me {
