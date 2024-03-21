@@ -2,6 +2,14 @@
   &__wrapper {
     @include flex(space-between, center);
     padding: 6rem 2rem;
+    @include media-tablet { 
+      padding: 6rem 6rem;
+    }
+    @include media-mobile {
+
+      @include flex(center, center);
+      column-gap: 2rem;
+    }
   }
 
   &__git {

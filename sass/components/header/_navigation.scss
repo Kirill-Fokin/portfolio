@@ -23,6 +23,9 @@
       @include media-tablet {
         margin-right: 8rem;
       }
+      @include media-tablet {
+        margin-right: 10rem;
+      }
       & li {
         @include font("Inter", 2rem, 600)
       }

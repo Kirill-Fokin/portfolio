@@ -13,5 +13,9 @@
   &__wrapper {
       @include flex(normal, flex-start);
       flex-direction: column;
+      @include media-mobile {
+        align-items: center;
+        justify-content: center;
+      }
   }
 }

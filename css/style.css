@@ -434,6 +434,12 @@ body {
     padding: 0 6rem;
   }
 }
+@media (max-width: 500px) {
+  .wrapper {
+    max-width: 56rem;
+    padding: 0rem 2rem;
+  }
+}
 
 p {
   color: white;
@@ -579,7 +585,7 @@ p {
 }
 
 .header {
-  background-image: url(/portfolio/assets/bg/bg.jpg);
+  background-image: url(/assets/bg/bg.jpg);
   background-position: center;
   background-size: cover;
   height: 91rem;
@@ -690,6 +696,11 @@ p {
     margin-right: 8rem;
   }
 }
+@media (max-width: 768px) {
+  .menu .subitem {
+    margin-right: 10rem;
+  }
+}
 .menu .subitem li {
   font-family: "Inter";
   font-size: 2rem;
@@ -718,6 +729,11 @@ p {
     line-height: 2.5rem;
   }
 }
+@media (max-width: 768px) {
+  .photographer-name__text {
+    max-width: 32rem;
+  }
+}
 .photographer-name__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -729,6 +745,7 @@ p {
       -ms-flex-align: normal;
           align-items: normal;
   margin-left: 6rem;
+  padding: 0 3rem;
 }
 @media (max-width: 768px) {
   .photographer-name__wrapper {
@@ -896,6 +913,11 @@ p {
             align-items: center;
   }
 }
+@media (max-width: 500px) {
+  .portfolio__buttons {
+    max-width: 39rem;
+  }
+}
 .portfolio__layot {
   margin-top: 6rem;
 }
@@ -916,6 +938,11 @@ p {
 .portfolio-layout__image {
   max-width: 45rem;
 }
+@media (max-width: 500px) {
+  .portfolio-layout__image {
+    max-width: 30rem;
+  }
+}
 
 .video__wrapper {
   display: -webkit-box;
@@ -933,9 +960,25 @@ p {
           flex-direction: column;
   margin-top: 8.2rem;
 }
+.video__wrapper .dic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .video__image {
   max-width: 100%;
   margin-top: 4.5rem;
+}
+@media (max-width: 500px) {
+  .video__image {
+    max-width: 80%;
+  }
 }
 
 .price__wrapper {
@@ -993,6 +1036,11 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
   border: 1px solid #bdae82;
+}
+@media (max-width: 500px) {
+  .price-card {
+    padding: 2.5rem 5.5rem 2.5rem 5.5rem;
+  }
 }
 .price-card:hover {
   background-color: #bdae82;
@@ -1073,6 +1121,16 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+@media (max-width: 500px) {
+  .contact-me__wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
 .contact-me-form {
   display: -webkit-box;
@@ -1088,11 +1146,29 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .contact-me-form .input-box {
   position: relative;
   width: 45rem;
   height: 5rem;
+}
+@media (max-width: 500px) {
+  .contact-me-form .input-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 30rem;
+  }
 }
 .contact-me-form .input-box__mail {
   color: white;
@@ -1106,6 +1182,12 @@ p {
   font-size: 2rem;
   font-weight: 400;
 }
+@media (max-width: 500px) {
+  .contact-me-form .input-box__mail {
+    width: 30rem;
+    height: 4.5rem;
+  }
+}
 .contact-me-form .input-box__phone {
   color: white;
   width: 45rem;
@@ -1117,6 +1199,12 @@ p {
   font-size: 2rem;
   font-weight: 400;
 }
+@media (max-width: 500px) {
+  .contact-me-form .input-box__phone {
+    width: 30rem;
+    height: 4.5rem;
+  }
+}
 .contact-me-form .input-box__message {
   color: white;
   width: 45rem;
@@ -1127,6 +1215,12 @@ p {
   font-family: "Inter";
   font-size: 2rem;
   font-weight: 400;
+}
+@media (max-width: 500px) {
+  .contact-me-form .input-box__message {
+    width: 30rem;
+    height: 7.5rem;
+  }
 }
 
 .footer__wrapper {
@@ -1140,6 +1234,27 @@ p {
       -ms-flex-align: center;
           align-items: center;
   padding: 6rem 2rem;
+}
+@media (max-width: 768px) {
+  .footer__wrapper {
+    padding: 6rem 6rem;
+  }
+}
+@media (max-width: 500px) {
+  .footer__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-column-gap: 2rem;
+       -moz-column-gap: 2rem;
+            column-gap: 2rem;
+  }
 }
 .footer__git {
   word-spacing: 1.5rem;

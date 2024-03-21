@@ -1,4 +1,5 @@
 .photographer-name {  
+
   &__text {
     @include font('Inter', 2rem, 400,); 
     max-width: 47rem;
@@ -7,11 +8,15 @@
     @include media-tablet {
       line-height: 2.5rem;
     }
+    @include media-tablet {
+      max-width:32rem;
+    }
   }
   
   &__wrapper {
     @include flex(normal, normal);
     margin-left: 6rem;
+    padding: 0 3rem;
     @include media-tablet {
       margin-left: 0rem;
     }
