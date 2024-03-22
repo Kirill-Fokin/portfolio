@@ -1,12 +1,18 @@
 .contact-me-form {
   @include flex (normal, space-between);
   flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  
 
   .input-box {
       position: relative;
       width: 45rem;
       height: 5rem;
-      &__mail{
+      @include media-mobile{
+        @include flex(center, center);
+        width: 30rem;
+      }      &__mail{
         color: white;
         font-size: 4rem;
         width: 45rem;
@@ -15,6 +21,10 @@
         border: none;
         border: 2px solid $color-primary;
         @include font('Inter', 2rem, 400);
+        @include media-mobile {
+          width: 30rem;
+          height: 4.5rem;
+        }
     }
     &__phone {
       color: white;
@@ -24,6 +34,10 @@
       border: none;
       border: 2px solid $color-primary;
       @include font('Inter', 2rem, 400);
+      @include media-mobile {
+        width: 30rem;
+        height: 4.5rem;
+      }
     }
     &__message {
       color: white;
@@ -33,6 +47,10 @@
       border: none;
       border: 2px solid $color-primary;
       @include font('Inter', 2rem, 400);
+      @include media-mobile {
+        width: 30rem;
+        height: 7.5rem;
+      }
     }
   }
 }

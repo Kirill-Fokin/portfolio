@@ -17,6 +17,11 @@ body {
     max-width: 76rem;
     padding: 0 6rem;
   }
+
+  @include media-mobile {
+    max-width: 56rem;
+    padding: 0rem 2rem;
+  }
 }
 
 p {

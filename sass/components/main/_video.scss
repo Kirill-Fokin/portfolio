@@ -3,9 +3,16 @@
     @include flex(center, center);
     flex-direction: column;
     margin-top: 8.2rem;
+    .dic {
+      @include flex(center, center);
+    }
   }
   &__image {
     max-width: 100%;
     margin-top: 4.5rem;
+
+    @include media-mobile {
+      max-width: 80%;
+    }
   }
 }
