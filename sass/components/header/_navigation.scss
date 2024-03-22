@@ -1,10 +1,22 @@
 .menu {
-    @include flex(space-between, normal);    
+    @include flex(space-between, normal);  
+
+
+
     &__list {
       @include flex(center, noramal);
       column-gap: 3.1rem;
       @include media-tablet  {
-        display: none;
+        position: absolute;
+        right: -350px;
+        top: 0;
+        width: 350px;
+        padding: 75px 20px 20px 20px;
+        background-color: blueviolet;
+        visibility: hidden;
+        transition: transform .5s, visibility .5s;
+        will-change: transform;
+      
       }
     }
     &__link {

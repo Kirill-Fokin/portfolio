@@ -9,6 +9,31 @@
     max-height: 54rem;
     position: relative;
     background-position: center;
+
+
+    &.open .menu__list {
+      transform: translateX(-100%);
+      visibility: visible;
+      width: 35rem;
+      @include flex(center, space-between);
+      flex-direction: column;
+      background-color: black;
+
+
+    }
+
+
+
+  &.open .header__burger-btn span:nth-child(3) {
+    opacity: 0;
+    transform: translateX(-100%);
+     display: none;
+  }
+
+
+
+
+  
    }
 
   &__subwrapper {
@@ -16,6 +41,10 @@
     flex-direction: row;
     justify-content: space-between;
     column-gap: 3rem;
+
+
+    @include media-tablet  {
+    }
   }
   &__logo {
     @include media-tablet {

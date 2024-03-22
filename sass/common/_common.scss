@@ -5,12 +5,19 @@ html {
 body {
   background-color: rgb(0, 0, 0);
   @include flex(center, normal);
+  overflow-x: hidden;
+}
+
+.body__wrapper {
+  @include flex(center, normal);
+  overflow-x: hidden;
+  position: relative;
 }
 
 .wrapper {
   max-width: 144rem;
   padding: 0 2rem;
-  overflow: hidden;
+
 
 
   @include media-tablet  {

@@ -421,12 +421,26 @@ body {
   -webkit-box-align: normal;
       -ms-flex-align: normal;
           align-items: normal;
+  overflow-x: hidden;
+}
+
+.body__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: normal;
+      -ms-flex-align: normal;
+          align-items: normal;
+  overflow-x: hidden;
+  position: relative;
 }
 
 .wrapper {
   max-width: 144rem;
   padding: 0 2rem;
-  overflow: hidden;
 }
 @media (max-width: 768px) {
   .wrapper {
@@ -596,6 +610,32 @@ p {
     position: relative;
     background-position: center;
   }
+  .header.open .menu__list {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    visibility: visible;
+    width: 35rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: space-between;
+        -ms-flex-align: space-between;
+            align-items: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: black;
+  }
+  .header.open .header__burger-btn span:nth-child(3) {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    display: none;
+  }
 }
 .header__subwrapper {
   display: -webkit-box;
@@ -662,7 +702,18 @@ p {
 }
 @media (max-width: 768px) {
   .menu__list {
-    display: none;
+    position: absolute;
+    right: -350px;
+    top: 0;
+    width: 350px;
+    padding: 75px 20px 20px 20px;
+    background-color: blueviolet;
+    visibility: hidden;
+    -webkit-transition: visibility 0.5s, -webkit-transform 0.5s;
+    transition: visibility 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, visibility 0.5s;
+    transition: transform 0.5s, visibility 0.5s, -webkit-transform 0.5s;
+    will-change: transform;
   }
 }
 .menu__link {
