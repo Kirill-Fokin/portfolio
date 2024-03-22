@@ -11,12 +11,18 @@
         right: -350px;
         top: 0;
         width: 350px;
-        padding: 75px 20px 20px 20px;
-        background-color: blueviolet;
+        height: 60rem;
+        padding: 75px 20px 40px 40px;
+        margin-top: 0;
+        background-color: rgb(0, 0, 0);
         visibility: hidden;
         transition: transform .5s, visibility .5s;
         will-change: transform;
+
       
+        @include flex(center, space-between);
+        flex-direction: column;
+        row-gap: 6rem;;
       }
     }
     &__link {
@@ -25,6 +31,9 @@
       transition: .5s;
       &:hover {
         color: $color-primary; 
+      }
+      @include media-tablet {
+        @include font("Inter", 4rem, 400);
       }
     }
 
