@@ -6,27 +6,22 @@
       padding: 6rem 6rem;
     }
     @include media-mobile {
-
       @include flex(center, center);
       column-gap: 2rem;
     }
   }
-
   &__git {
     word-spacing: 1.5rem;
     margin-left: 0rem;
     color: white;
     @include font('Inter', 2rem,400);
   }
-
   &__rs {
     margin-left: 2rem;
     word-spacing: 0rem;
     color: white;
     @include font('Inter', 2rem, 400);
   }
-
-  
   &__logos {
     @include flex(space-between, normal);
     column-gap: 3rem;

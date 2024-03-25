@@ -636,6 +636,7 @@ p {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     display: none;
+    display: block;
   }
 }
 .header__subwrapper {
@@ -671,7 +672,7 @@ p {
   row-gap: 17rem;
 }
 @media (max-width: 768px) {
-  .header__wrapper {
+  .header {
     row-gap: 8rem;
   }
 }

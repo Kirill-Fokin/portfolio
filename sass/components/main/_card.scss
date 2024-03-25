@@ -10,13 +10,11 @@
    border: 1px solid $color-primary;
    border-radius: 3rem;
   }
-
   &__title {
     @include font('Inter', 2rem, 400,);
     color: white;
     padding-top: 2.3rem;
   }
-
   &__text {
     @include font('Inter', 1.8rem, 300,);
     line-height: 3.5rem;
