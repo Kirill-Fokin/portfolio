@@ -12,15 +12,13 @@
         column-gap: 0rem;
       }
     }
-
   &__wrapper {
     margin-top: 4.2rem;
-      @include flex(center, center);
-      flex-direction: column;
-      row-gap: 4.5rem;
-      @include media-tablet  { 
-        margin-top: 3rem;
-          
-      }
+    @include flex(center, center);
+    flex-direction: column;
+    row-gap: 4.5rem;
+    @include media-tablet  { 
+    margin-top: 3rem;   
     }
+  }
 }

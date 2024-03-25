@@ -3,14 +3,30 @@
   background-image: url(/assets/bg/bg.jpg); 
   background-position: center;
   background-size: cover;
-  height: 91rem;
-  
+  height: 91rem; 
   @include media-tablet {
     max-height: 54rem;
     position: relative;
     background-position: center;
-   }
+    &.open .menu__list {
+      transform: translateX(-100%);
+      visibility: visible;
+      width: 35rem;
+      @include flex(center, space-between);
+      flex-direction: column;
+      background-color: black;
+    }
+    &.open .header__burger-btn span:nth-child(3) {
+      opacity: 0;
+      transform: translateX(-100%);
+      display: none;
+      display: block;
+    }
 
+    
+
+
+  }
   &__subwrapper {
     display: flex;
     flex-direction: row;
@@ -28,8 +44,8 @@
     display: flex;
     flex-direction: column;
     row-gap: 17rem;
+  }
     @include media-tablet {
       row-gap: 8rem;
     }
   }
-}
